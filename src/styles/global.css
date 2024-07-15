@@ -49,6 +49,16 @@ p {
     text-indent: 1rem;
 }
 
+blockquote {
+    background-color: #f0f0f0; /* Light gray background for code feel */
+    border-left: 5px solid #d87093; /* Medium pink border for accent */
+    padding: 15px;
+    margin: 20px 0;
+    font-family: monospace; /* Code-style font */
+    line-height: 1.5; /* Improved readability for code */
+    color: #333; /* Dark gray text for contrast */
+  }
+
 small, li {
     font-family: var(--body); 
 }
@@ -90,6 +100,7 @@ small, li {
 .gif {
     margin: 20px 0 0 0;
     text-align: center;
+    align-self: center;
 }
 
 /* Badge */

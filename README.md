@@ -23,6 +23,10 @@ With its responsive design, Milky Way ensures a seamless experience across devic
 </p>
 
 ## 🚀 Getting Started
+Use a supported Node.js release satisfying `>=22.12.0` and npm `>=9.6.5` locally and in your deployment build environment. This upgrade was verified with Node `22.22.3` and npm `10.9.8`.
+
+Use `npm ci` to reproduce the committed dependency lockfile. See [Dependency maintenance](DEPENDENCY_MAINTENANCE.md) for upgrade decisions, security tracking, and validation lessons.
+
 Clone this repository to your local machine using Git.
 
 ```scheme
